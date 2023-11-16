@@ -1,0 +1,183 @@
+body {
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #ffffff;
+    height: 200vh;
+    position: relative; }
+    body:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1; 
+    }
+
+  
+
+/* ul , li{
+    color: rgb(170, 168, 168);
+    text-align:right ;
+    font-size: 20px;
+    font-weight:100;
+    padding:auto ;
+    font-stretch: wider;
+    
+} */
+
+
+nav{
+    /* position: sticky !important; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #ffffff !important;
+        }
+    nav a{
+        color: rgb(170, 168, 168);
+        text-align:right ;
+        font-size: 20px;
+        font-weight:100;
+        padding:auto ;
+        font-stretch: wider;
+    }
+    nav button{
+        
+        width: 90px;
+        padding-top:15px ;
+        padding-bottom  :15px ;
+        font-size: 0.5cm;
+
+    }
+
+.hero{
+    background-color: rgb(230, 230, 224);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.heroImg{
+
+    position: relative;
+    /* top: 7%; 
+    left: 4%;  */
+    z-index: 1;
+}
+
+
+.side{
+    max-width: 100%;
+    margin-top: 0%;
+    padding-right: 15%;
+    align-items: center;
+    text-align: center; }
+    .side h1{
+        font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+        font-size: 2cm;
+        text-align: center;}
+    .side img{
+        position:relative;
+        margin-left:0%;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        z-index: 1;}
+    .side button{
+        position: relative;
+        padding-top:10px ;
+        padding-bottom  :10px ;
+        width: 250px;
+        font-size: .6cm;
+
+    }
+    .side p{
+        font-size: 0.6cm;
+        max-width: 90%;
+        padding-left: 10%;
+        word-wrap: break-word;
+        text-align: center;
+        font-weight: lighter;
+        word-spacing: normal;
+        line-height: 1cm;
+    
+    }
+
+    /* .social-icon { 
+        display: inline-flex;
+        flex-direction: row;
+        width: 20px; 
+        height: 20px; 
+        margin: 15 15px 5px 0; 
+    } */
+
+.scroll{
+    opacity: 0;
+    transition: opacity 2s ;
+}
+.stars{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d5d5d5;
+    margin-right: 5px;
+}
+
+.stars:hover,
+.stars:hover  .stars {
+    color: #FFD700; /* Gold */
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
